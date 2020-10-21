@@ -1,6 +1,5 @@
 /**
  * Program Name: BankAccountTester.java
- * Purpose: This program will instantiate objects of Triangle and test all of the methods of the Triangle class
  * Coder: Dianne Corpuz Section B
  * Date: February 26, 2020
  */
@@ -13,7 +12,7 @@ public class BankAccountTester {
 		BankAccount data1=new PersonalChequingAccount("Janice Joplin","March",2345);
 		// Print the object at the start of the month.
 		System.out.println(data1.toString());
-	 	//MAKE transactions to Janice’s chequing account for the month of March
+	 	//MAKE transactions to Janiceâ€™s chequing account for the month of March
 		data1.deposit(25.98, 5);
 		data1.withdrawal(1300,6); 
 		data1.withdrawal(1700, 10); 
@@ -33,7 +32,7 @@ public class BankAccountTester {
 		//Print the object at the beginning of the month. 
 		System.out.println("\n" + data2.toString());
 		
-		//make transactions to Elvis’s saving account
+		//make transactions to Elvisâ€™s saving account
 		data2.deposit(500, 3);
 		data2.withdrawal(1000, 6);
 		data2.deposit(250, 15);
